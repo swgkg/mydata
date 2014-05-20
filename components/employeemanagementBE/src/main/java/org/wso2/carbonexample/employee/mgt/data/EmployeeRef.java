@@ -1,5 +1,7 @@
 package org.wso2.carbonexample.employee.mgt.data;
 
+import java.util.Date;
+
 /**
  * 
  * @author gayan
@@ -12,6 +14,7 @@ public class EmployeeRef {
 	private String lName;
 	private String address;
 	private int age;
+	private Date dateOfJoin;
 
 	public String getNICNumber() {
 		return nicNumber;
@@ -51,5 +54,13 @@ public class EmployeeRef {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public Date getDateOfJoin() {
+		return dateOfJoin;
+	}
+
+	public void setDateOfJoin(Date dateOfJoin) {
+		this.dateOfJoin = dateOfJoin;
 	}
 }
