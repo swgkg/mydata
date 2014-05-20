@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="employeemanagementBE" label="Employee server backend" provider-name="%providerName" version="4.2.0">
+  <description>backend functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="employeemanagementBE" unpack="false" version="4.2.0"/>
+</feature>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="employeemanagement-featues" label="Employee list feature" provider-name="%providerName" version="4.2.0">
+  <description>List of employees in company</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <includes id="" optional="false" version="4.2.0"/>
+  <includes id="" optional="false" version="4.2.0"/>
+</feature>

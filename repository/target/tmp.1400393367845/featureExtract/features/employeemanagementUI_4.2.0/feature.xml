@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="employeemanagementUI" label="WSO2 Carbon - Employee Manager UI Feature" provider-name="%providerName" version="4.2.0">
+  <description>Student Manager Sample</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="employeemanagementUI" unpack="false" version="4.2.0"/>
+</feature>

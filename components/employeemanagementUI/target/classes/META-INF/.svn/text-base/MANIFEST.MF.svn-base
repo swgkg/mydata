@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1400393366828
+Build-Jdk: 1.6.0_30
+Built-By: gayan
+Bundle-Description: Employee Management Components
+Bundle-ManifestVersion: 2
+Bundle-Name: WSO2 Carbon - Employee Records UI
+Bundle-SymbolicName: employeemanagementUI
+Bundle-Version: 4.2.0
+Carbon-Component: UIBundle
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbonexample.employee.mgt.ui;uses:="org.apache
+ .axis2,org.apache.axis2.client,org.apache.axis2.context,org.apache.axis
+ 2.description,org.wso2.carbonexample.employee.mgt.data.xsd";version="4.
+ 2.0",org.wso2.carbonexample.employee.mgt.ui.i18n;version="4.2.0",org.ws
+ o2.carbonexample.employee.mgt.data.xsd;uses:="javax.xml.namespace,javax
+ .xml.stream,org.apache.axiom.om,org.apache.axis2.databinding";version="
+ 4.2.0"
+Import-Package: javax.xml.namespace;resolution:=optional,javax.xml.strea
+ m;resolution:=optional;version="[1.0,2)",org.apache.axiom.om;resolution
+ :=optional,org.apache.axiom.soap;resolution:=optional,org.apache.axis2;
+ resolution:=optional;version="[1.6,2)",org.apache.axis2.addressing;reso
+ lution:=optional;version="[1.6,2)",org.apache.axis2.client;resolution:=
+ optional;version="[1.6,2)",org.apache.axis2.client.async;resolution:=op
+ tional;version="[1.6,2)",org.apache.axis2.context;resolution:=optional;
+ version="[1.6,2)",org.apache.axis2.databinding;resolution:=optional;ver
+ sion="[1.6,2)",org.apache.axis2.databinding.utils;resolution:=optional;
+ version="[1.6,2)",org.apache.axis2.databinding.utils.reader;resolution:
+ =optional;version="[1.6,2)",org.apache.axis2.description;resolution:=op
+ tional;version="[1.6,2)",org.apache.axis2.engine;resolution:=optional;v
+ ersion="[1.6,2)",org.apache.axis2.transport;resolution:=optional;versio
+ n="[1.6,2)",org.apache.axis2.util;resolution:=optional;version="[1.6,2)
+ "
+Tool: Bnd-2.1.0.20130426-122213

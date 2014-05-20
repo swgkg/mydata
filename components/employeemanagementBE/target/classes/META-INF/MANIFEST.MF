@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1400393363281
+Build-Jdk: 1.6.0_30
+Built-By: gayan
+Bundle-Description: Employee Management Components
+Bundle-ManifestVersion: 2
+Bundle-Name: employeemanagementBE
+Bundle-SymbolicName: employeemanagementBE
+Bundle-Version: 4.2.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbonexample.employee.mgt;uses:="org.wso2.carb
+ onexample.employee.mgt.data";version="4.2.0",org.wso2.carbonexample.emp
+ loyee.mgt.data;version="4.2.0"
+Tool: Bnd-2.1.0.20130426-122213
